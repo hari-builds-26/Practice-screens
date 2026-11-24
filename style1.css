@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #111827;
+    background-color: white;
+}
+
+.page {
+    font-size: 0;
+}
+
+.left-panel {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+
+    padding: 48px 64px;
+    background-color: #11796F;
+    color: white;
+
+    font-size: 16px;
+}
+
+.logo-box {
+    display: inline-block;
+    vertical-align: middle;
+
+    width: 34px;
+    height: 34px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+
+.brand-name {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.promo {
+    margin-top: 255px;
+}
+
+.promo h1 {
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.promo p {
+    margin-top: 18px;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.stats {
+    margin-top: 255px;
+}
+
+.stat-card {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 48%;
+    box-sizing: border-box;
+
+    padding: 18px;
+    margin-right: 2%;
+
+    background-color: #2B8981;
+    border: 1px solid #4A9B94;
+    border-radius: 14px;
+}
+
+.stat-card h2 {
+    font-size: 24px;
+}
+
+.stat-card p {
+    margin-top: 5px;
+    font-size: 13px;
+}
+.right-panel {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 50%;
+    box-sizing: border-box;
+
+    padding: 180px 10%;
+    font-size: 16px;
+}
+
+.login-content {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-content h1 {
+    font-size: 30px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    color: #64748B;
+    font-size: 16px;
+}
+
+.form-group {
+    margin-top: 32px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    height: 48px;
+    box-sizing: border-box;
+
+    padding: 0 14px;
+
+    border: 1px solid #DDE1E8;
+    border-radius: 11px;
+
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    border: 1px solid #11796F;
+}
+
+.password-field {
+    border: 1px solid #DDE1E8;
+    border-radius: 11px;
+}
+
+.password-field input {
+    width: 78%;
+    border: none;
+}
+
+.show-button {
+    width: 20%;
+    height: 44px;
+
+    border: none;
+    background-color: white;
+    color: #64748B;
+
+    font-size: 14px;
+}
+
+.options {
+    margin-top: 18px;
+}
+
+.remember {
+    display: inline-block;
+    width: 49%;
+}
+
+.remember input {
+    accent-color: #11796F;
+}
+
+.remember label {
+    font-size: 14px;
+}
+
+.options a {
+    display: inline-block;
+    width: 49%;
+
+    text-align: right;
+    color: #11796F;
+
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Login button */
+
+.login-button {
+    width: 100%;
+    height: 48px;
+
+    margin-top: 24px;
+
+    background-color: #11796F;
+    color: white;
+
+    border: 1px solid #11796F;
+    border-radius: 10px;
+
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.divider {
+    margin-top: 26px;
+    text-align: center;
+}
+
+.divider-line {
+    display: inline-block;
+    vertical-align: middle;
+
+    width: 43%;
+    border-top: 1px solid #DDE1E8;
+}
+
+.divider p {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 0 10px;
+    color: #64748B;
+
+    font-size: 13px;
+}
+.google-button {
+    width: 100%;
+    height: 48px;
+
+    margin-top: 26px;
+
+    background-color: white;
+    border: 1px solid #DDE1E8;
+    border-radius: 10px;
+
+    font-size: 15px;
+}
+
+.google-mark {
+    display: inline-block;
+    vertical-align: middle;
+
+    width: 14px;
+    height: 14px;
+
+    border: 3px solid #4285F4;
+    border-top-color: #EA4335;
+    border-right-color: #FBBC05;
+    border-bottom-color: #34A853;
+
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.create-account {
+    margin-top: 26px;
+
+    text-align: center;
+    color: #64748B;
+
+    font-size: 14px;
+}
+
+.create-account a {
+    color: #11796F;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+@media (max-width: 700px) {
+
+    .left-panel {
+        display: block;
+        width: 100%;
+        height: 145px;
+
+        padding: 56px 20px;
+    }
+
+    .promo {
+        display: none;
+    }
+
+    .stats {
+        display: none;
+    }
+
+    .right-panel {
+        display: block;
+        width: 100%;
+
+        padding: 34px 20px;
+    }
+
+    .login-content h1 {
+        font-size: 26px;
+    }
+
+}
